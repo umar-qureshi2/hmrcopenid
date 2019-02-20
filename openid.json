@@ -1,0 +1,40 @@
+{
+"token_endpoint": "https://test-api.service.hmrc.gov.uk/oauth/token",
+"scopes_supported": [
+"openid"
+],
+"token_endpoint_auth_methods_supported": [
+"authorization_code"
+],
+"request_uri_parameter_supported": false,
+"end_session_endpoint": "https://test-api.service.hmrc.gov.uk/logout",
+"issuer": "https://test-api.service.hmrc.gov.uk/",
+"subject_types_supported": [
+"public"
+],
+"response_types_supported": [
+"code"
+],
+"response_modes_supported": [
+"query"
+],
+"version": "1.1",
+"authorization_endpoint": "https://test-api.service.hmrc.gov.uk/oauth/authorize",
+"grant_types_supported": [
+"authorization_code",
+"refresh_token"
+],
+"group_endpoint": "https://test-api.service.hmrc.gov.uk/group",
+"ui_locales_supported": [
+"en-GB",
+"cy"
+],
+"id_token_signing_alg_values_supported": [
+"RS256"
+],
+"jwks_uri": "https://test-api.service.hmrc.gov.uk/jwks",
+"display_values_supported": [
+"page"
+],
+"userinfo_endpoint": "https://test-api.service.hmrc.gov.uk/userinfo"
+}
